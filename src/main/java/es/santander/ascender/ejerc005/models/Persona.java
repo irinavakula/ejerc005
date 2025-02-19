@@ -21,7 +21,7 @@ public class Persona {
     private  String surname;
 
     @Column(name="provincia_id")
-    private Long provinciaId;
+    private int provinciaId;
 
     public Long getid() {
         return id;
@@ -47,11 +47,11 @@ public class Persona {
         this.surname = surname;
     }
 
-    public Long getProvinciaId() {
+    public int getProvinciaId() {
         return provinciaId;
     }
 
-    public void setProvinciaId(Long provinciaId) {
+    public void setProvinciaId(int provinciaId) {
         this.provinciaId = provinciaId;
     }
     
